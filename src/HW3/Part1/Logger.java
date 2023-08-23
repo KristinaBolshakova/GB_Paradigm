@@ -6,6 +6,7 @@
 package HW3.Part1;
 
 public class Logger {
+
     private static Logger logger;
 
     private Logger() {}
@@ -17,6 +18,10 @@ public class Logger {
         return logger;
     }
 
+    /**
+     *
+     * @param msg - сообщение логгера
+     */
     public void Log(String msg){
         System.out.println(msg);
     }

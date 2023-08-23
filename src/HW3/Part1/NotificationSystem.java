@@ -12,14 +12,21 @@ import java.util.List;
 public class NotificationSystem implements Observable{
     private final List<Observer> observers = new ArrayList<>();
 
+    /**
+     *
+     * @param observer - наблюдатель
+     * метод добавления
+     */
     public void add(Observer observer) {
         observers.add(observer);
     }
 
+    //метод удаления
     public void remove(Observer observer) {
         observers.remove(observer);
     }
 
+    //метод оповещения
     public void notifyObservers() {
         for (Observer observer : observers) {
             observer.update();

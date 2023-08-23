@@ -1,6 +1,12 @@
+////ООП Концепции:
+////Создайте класс Person, который имеет атрибуты name, age и метод introduce(),
+//// выводящий информацию о человеке.
+//// Создайте несколько объектов этого класса и вызовите метод introduce() для каждого из них.
+
 package HW3.Part1;
 
 public class Main {
+
     public static void main(String[] args) {
         NotificationSystem notificationSystem = new NotificationSystem();
 

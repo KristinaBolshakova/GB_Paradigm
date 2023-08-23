@@ -7,12 +7,13 @@ package HW3.Part2.Task2;
 
 public class Main {
     public static void main(String[] args) {
+        // Подача электроэнергии через обычную розетку
         ElectricSocket electricSocket = new ElectricSocket();
+        electricSocket.supplyElectricity(220); // Подача электроэнергии с напряжением 220 Вольт
 
-        electricSocket.supplyElectricity(220);
-
+        // Использование адаптера для подачи электроэнергии через розетка евростандарта
         USPlugAdapter usPlugAdapter = new USPlugAdapter(electricSocket);
-        usPlugAdapter.adapterVoltage(110);
+        usPlugAdapter.adapterVoltage(110); // Подача электроэнергии с напряжением 110 Вольт
 
     }
 }

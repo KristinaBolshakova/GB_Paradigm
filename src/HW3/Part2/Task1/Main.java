@@ -8,11 +8,16 @@ public class Main {
     public static void main(String[] args) {
         ShapeFactory shapeFactory = new ShapeFactory();
 
+        //Создание объекта круга
         Shape circle = shapeFactory.create_shape(Shape.ShapeType.CIRCLE);
-        circle.draw();
+        circle.draw(); //рисую круг
+
+        //Создание объекта квадрата
         Shape square = shapeFactory.create_shape(Shape.ShapeType.SQUARE);
-        square.draw();
+        square.draw(); //рисую квадрат
+
+        //Создание объекта треугольник
         Shape triangle = shapeFactory.create_shape(Shape.ShapeType.TRIANGLE);
-        triangle.draw();
+        triangle.draw(); //рисую треугольник
     }
 }

@@ -1,7 +1,4 @@
-//ООП Концепции:
-//Создайте класс Person, который имеет атрибуты name, age и метод introduce(),
-// выводящий информацию о человеке.
-// Создайте несколько объектов этого класса и вызовите метод introduce() для каждого из них.
+
 
 package HW3.Part1;
 
@@ -9,11 +6,21 @@ public class Person implements Observer{
     String name;
     int age;
 
+    /**
+     *
+     * @param name - имя Person
+     * @param age - возраст Person
+     *
+     * Конструктор класса Person
+     */
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
     }
 
+    /**
+     * Getters and Setters
+     */
     public String getName() {
         return name;
     }
