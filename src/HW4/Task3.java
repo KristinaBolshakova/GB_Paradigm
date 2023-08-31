@@ -17,11 +17,6 @@ public class Task3 {
         for (int j : arr) {
             n *= j;
         }
-        if (arr.length == 0){
-            return 0;
-        }
-        else {
-            return n;
-        }
+        return n;
     }
 }
