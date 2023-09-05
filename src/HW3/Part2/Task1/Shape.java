@@ -9,6 +9,4 @@ public abstract class Shape {
         SQUARE,
         TRIANGLE
     }
-
-
 }

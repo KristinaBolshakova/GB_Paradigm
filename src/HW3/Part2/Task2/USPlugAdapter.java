@@ -2,7 +2,6 @@ package HW3.Part2.Task2;
 
 public class USPlugAdapter {
     private final ElectricSocket socket;
-
     /**
      *
      * @param socket - розетка

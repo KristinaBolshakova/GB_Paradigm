@@ -2,12 +2,14 @@
 
 package HW6;
 
+import java.util.Arrays;
+
 public class BinarySearch {
 
     public static void main(String[] args) {
         int[] array = {2, 5, 8, 3, 2, 6, 4};
         int numberToFind = 3;
-
+        Arrays.sort(array);
         System.out.printf("Индекс = %d%n", binarySearch(array, numberToFind, 0, array.length - 1));
     }
 
